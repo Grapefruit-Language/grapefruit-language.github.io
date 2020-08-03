@@ -24,13 +24,13 @@ Grapefruit does not attempt to protect you from the underlying complexity (altho
 
 If you want to do the memory management yourself, you can certainly do that. Grapefruit will transpile into C (at least) with no _compiler magic_ ✨. You can dig into the code and tweak stuff as much as you want.
 
-## Philosophy
+## ☮️ Philosophy
 
 1. Grapefruit allows you to prototype quickly and debug your code using the interpreter.
 
 2. When you are confident about your Grapefruit program, transpile it into a language like C and then continue to refine and tweak the generated source to meet your performance target, space limit, and other goals.
 
-## Examples
+## :blue_book: Examples
 
 ### Hello, World! 👋
 
@@ -145,33 +145,33 @@ function main
 }
 ```
 
-## Features
+## 📝 Features
 
 1. Resembles English in readability.
 2. Can be both interpreted and transpiled.
 3. The tools do not perform any source code optimisation. Do it yourself or rely on the transpiler target language's compiler.
 4. Strictly-typed. Type inference shortens the code but a variable can only have one type.
 5. Variables are immutable by default. Use the `and mutable` phrase to mark them as mutable.
-6. Single-threaded only. Multi-threading can be addded to the transpiled source code. For example, one can use OpenMP or pthreads for C code.
+6. Single-threaded only. Multi-threading can be addded to the transpiled source code. For example, one can use _OpenMP_ or _pthreads_ for C code.
 
-## Installation Instructions
+## ⚙️Installation Instructions
 
-_Currently a work in progress._
+⏳ _Currently a work in progress._
 
-## Contact Us
+## 📫 Contact Us
 
 You can contact us through:
 
 1. Twitter DM ([@grapefruit_lang](https://twitter.com/grapefruit_lang))
 2. Email (info@grapefruit-lang.com)
 
-## Contribution Guidelines
+## 🤝 Contribution Guidelines
 
 Right now, external code contributions are not accepted. You may, however, contact us regarding suggestions, questions, and other related topics.
 
 Contributions will be accepted after the "ecosystem" has an MVP and is stable enough for demonstration.
 
-## Inspiration and Alternatives
+## 💗 Inspiration and Alternatives
 
 ### Python
 
