@@ -177,4 +177,10 @@ Contributions will be accepted after the "ecosystem" has an MVP and is stable en
 
 Python is one of the most popular programming in the world. It is easy to read and quick to write. However, it is not strictly-typed. Grapefruit aims to be simple to read and write programs in while preventing implementation lock-in.
 
+### Rust, Haskell, etc.
+
 Bindings are immutable by default. They can be made mutable using the `and mutable` phrase. This idea is not new. It is borrowed from Rust, Haskell, OCaml, V, and several others.
+
+### ABC
+
+The ABC language had a similar goal. To be easy to read, write, and understand. Some of the conventions and philosophy was carried over to Python by Guido Van Rossum. And some of it percolated to Grapefruit.
